@@ -18,15 +18,12 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <p>{counter}</p>
-        <button onClick={() => increaseCounter()}></button>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+        <button
+          style={{ height: "40px", width: "100px" }}
+          onClick={() => increaseCounter()}
         >
-          Learn React
-        </a>
+          Click to add
+        </button>
       </header>
     </div>
   );
